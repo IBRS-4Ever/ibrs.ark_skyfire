@@ -1,0 +1,13 @@
+patch
+{
+	include "materials\IKanadeA\Skyfire\shader.vmt"
+	insert
+	{
+		"$basetexture" "IKanadeA\Skyfire\TH_sha"
+
+		"$detail" "IKanadeA\Skyfire\black"
+		"$detailscale" "1"
+		"$detailblendfactor" ".3"
+		"$detailblendmode" "5"
+	}
+}

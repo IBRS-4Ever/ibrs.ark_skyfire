@@ -1,0 +1,14 @@
+patch
+{
+	include "materials\IKanadeA\Skyfire\shader.vmt"
+	insert
+	{
+		"$basetexture" "IKanadeA\Skyfire\TH_mao"
+	}
+	replace
+	{
+		"$lightwarptexture" "IKanadeA\Skyfire\shader\skinwarp"
+		$alphatest 0
+		$nocull 0
+	}
+}

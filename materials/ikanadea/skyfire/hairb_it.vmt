@@ -1,0 +1,8 @@
+patch
+{
+	include "materials\IKanadeA\Skyfire\it.vmt"
+	insert
+	{
+		$basetexture "IKanadeA/Skyfire/hairb"
+	}
+}

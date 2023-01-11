@@ -1,0 +1,13 @@
+patch
+{
+	include "materials\IKanadeA\Skyfire\shader.vmt"
+	insert
+	{
+		"$basetexture" "IKanadeA\Skyfire\catear"
+	}
+	replace
+	{
+		"$lightwarptexture" "IKanadeA\Skyfire\shader\hairwarp"
+		"$phongboost"	".5"
+	}
+}
