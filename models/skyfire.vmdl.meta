@@ -13,11 +13,10 @@
       "ResourcePaths": null,
       "HasCode": false,
       "CodePath": null,
-      "RootNamespace": null,
       "Metadata": {
         "SingleAssetSource": "models/skyfire.vmdl",
         "Summary": "Skyfire from Arknights.",
-        "Description": "Skyfire from Arknights.",
+        "Description": "Skyfire from Arknights. Creator: Provence, IA-NanaNana",
         "Public": true,
         "ReplaceTags": "arknights anime"
       }
