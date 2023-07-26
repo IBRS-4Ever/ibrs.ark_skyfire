@@ -7,8 +7,11 @@
   "Schema": 1,
   "HasAssets": true,
   "AssetsPath": "",
-  "ResourcePaths": null,
+  "Resources": null,
+  "MenuResources": null,
   "HasCode": false,
   "CodePath": null,
+  "PackageReferences": [],
+  "EditorReferences": null,
   "Metadata": {}
 }
