@@ -26,10 +26,6 @@
 								to = "materials/ikanadea/skyfire/hairb.vmat"
 							},
 							{
-								from = "th_chuanhuji.vmat"
-								to = "materials/ikanadea/skyfire/th_chuanhuji.vmat"
-							},
-							{
 								from = "th_tail.vmat"
 								to = "materials/ikanadea/skyfire/th_tail.vmat"
 							},
@@ -584,6 +580,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
+						name = "body"
 						filename = "models/skyfire_dmx/body.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
@@ -600,7 +597,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						filename = "models/skyfire_dmx/ear.dmx"
+						name = "body_belt"
+						filename = "models/skyfire_dmx/body_belt.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -616,6 +614,58 @@
 					},
 					{
 						_class = "RenderMeshFile"
+						name = "body_iron"
+						filename = "models/skyfire_dmx/body_iron.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ear_ring"
+						filename = "models/skyfire_dmx/ear_ring.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "ears"
+						filename = "models/skyfire_dmx/ears.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "hair"
 						filename = "models/skyfire_dmx/hair.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
@@ -632,6 +682,7 @@
 					},
 					{
 						_class = "RenderMeshFile"
+						name = "face"
 						filename = "models/skyfire_dmx/head.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
@@ -648,7 +699,8 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						filename = "models/skyfire_dmx/loop.dmx"
+						name = "neck_band"
+						filename = "models/skyfire_dmx/neck_ring.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
 						import_scale = 1.0
@@ -664,22 +716,7 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						filename = "models/skyfire_dmx/ring.dmx"
-						import_translation = [ 0.0, 0.0, 0.0 ]
-						import_rotation = [ 0.0, 0.0, 0.0 ]
-						import_scale = 1.0
-						align_origin_x_type = "None"
-						align_origin_y_type = "None"
-						align_origin_z_type = "None"
-						parent_bone = ""
-						import_filter = 
-						{
-							exclude_by_default = false
-							exception_list = [  ]
-						}
-					},
-					{
-						_class = "RenderMeshFile"
+						name = "sword"
 						filename = "models/skyfire_dmx/Sword.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
@@ -696,6 +733,24 @@
 					},
 					{
 						_class = "RenderMeshFile"
+						name = "sword_2"
+						filename = "models/skyfire_dmx/Sword_2.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "tail"
 						filename = "models/skyfire_dmx/tail.dmx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 0.0, 0.0 ]
@@ -709,6 +764,205 @@
 							exclude_by_default = false
 							exception_list = [  ]
 						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "arm_band"
+						filename = "models/skyfire_dmx/arm_band.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "Body"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"body",
+									"face",
+									"hair",
+								]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "body_belt"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"body_belt",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "ears"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"ears",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "ear_ring"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"ear_ring",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "iron"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"body_iron",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "tail"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"tail",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "neck_band"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"neck_band",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Sword"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"sword",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"sword_2",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+					},
+					{
+						_class = "BodyGroup"
+						name = "Arm_band"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"arm_band",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
 					},
 				]
 			},
